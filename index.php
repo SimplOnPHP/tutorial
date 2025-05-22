@@ -31,6 +31,8 @@ SC_Main::$RENDERER=$redender;
 require_once(SC_Main::$RENDERER->SimplOn_path().DIRECTORY_SEPARATOR.'Languages'.DIRECTORY_SEPARATOR.SC_Main::$LANG.'.php');
 
 $DataStorage = new SDS_MySql($_ENV['DB_HOST'], $AppName, $_ENV['DB_USER'], $_ENV['DB_PASS']);
+//$DataStorage = new SDS_SQLite('','wowiw');
+
 
 date_default_timezone_set('America/Mexico_City');
 

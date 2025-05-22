@@ -1,0 +1,72 @@
+I have:
+
+- Admin rights for https://github.com/SimplOnPHP/
+- New code an containers for SimplOnPHP
+- Very limited konwledge of git
+- I should have all reqriments and keys to handle my git repo installed in my computer but need to verify
+- My project is a framework and in my PC has the following dir structure
+
+D:\1 SIMPLON
++---htdocs
+|   +---blank
+|   |   \---htmlJQuery
+|   |       +---css
+|   |       +---imgs
+|   |       |   +---colorbox
+|   |       |   \---icons
+|   |       \---js
+|   \---tutorial
+|       +---Datas
+|       +---extras
+|       |   +---files
+|       |   \---usrImgs
+|       +---files
+|       \---htmlJQuery
+|           +---css
+|           +---imgs
+|           |   +---colorbox
+|           |   \---icons
+|           \---js
++---mysql_data
++---mysql_data_linux
++---php
+\---simplon-php
+    +---.vscode
+    +---Datas
+    |   \---.vscode
+    +---DataStorages
+    +---Elements
+    |   \---.vscode
+    +---Languages
+    +---Renderers
+    |   \---htmlJQuery
+    |       +---css
+    |       +---imgs
+    |       |   +---colorbox
+    |       |   \---icons
+    |       \---js
+    +---Tools
+    \---vendor
+        +---composer
+        +---filp
+        +---psr
+        +---symfony
+        \---voku
+
+
+
+Php is only used by VSCode php extension, is not needed by the project.
+At the project root "D:\1 SIMPLON" there is the docker-compose.yml file to create a contenirized dev enviroment.
+The dev enviroment consists of three containers Apache, mysql and phpmyadmin.
+The frameworks code is at simplon-php.
+mysql_data_linux and mysql_data contain DB data two separate ones where required because of issues with OS interpretation of caps generated fails in the system otherwise.
+htdocs has the files to be publicly published by the server, each subdirectory is intended to be a separate system.
+	blank is intended as a template to copy, paste and rename.
+	tutorial has a finshed version of the code of tutorial.
+
+ 
+I want to upload a whole version of "D:\1 SIMPLON" to https://github.com/SimplOnPHP/quickStart So that anyone surfing https://simplonphp.org/quickStart.html can clone it run docker-compose up --build -d and start coding or following the tutorial https://simplonphp.org/tutorial.html.
+
+I want to make the contents of simplon-php the new/lastest version of  https://github.com/SimplOnPHP/simplon-php/ overwrinting everything no versions or discrepancy checkings
+
+I want to make the contents of tutorial the new/lastest version of  https://github.com/SimplOnPHP/tutorial/ overwrinting everything no versions or discrepancy checkings

@@ -41,7 +41,7 @@ class AE_File extends SC_Element {
 			),
 			'Admin'=>array(
 				'user'=>'fixed_CurrentUserId',
-				'updateAction'=>'viwableWhen_user_=_CurrentUserId',
+				'updateAction'=>'viewableWhen_user_=_CurrentUserId',
 				'deleteAction'=>'hide',
 			),
 			'Search'=>array(
